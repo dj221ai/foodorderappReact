@@ -8,6 +8,7 @@ const Header = () =>{
         <Fragment>
             <header className={classes.header}>
                 MealsMELA
+                <button>Cart</button>
             </header>
             <div className={classes['main-image']}>
                 <img src={foodImg} alt="Delicious Foods"/>
